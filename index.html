@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+<body>
+
+    <section class="navsection">
+        <div class="navcontainer">
+            <h1 class="logo" id="logo"></h1>
+            <div class="navmenu">
+                <h1 class="navlink" id="navlink"></h1>
+                <h1 class="navlink2" id="navlink2"></h1>
+                <h1 class="navlink3" id="navlink3"></h1>
+                <h1 class="navlink4" id="navlink4"></h1>
+            </div>
+            <div class="navicons">
+                <div class="searchicon"></div>
+                <div class="usericon"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <h1 id="bigletter" class="bigletter"></h1>
+
+    <main class="bigdiv">
+
+
+
+        <section class="herosection">
+            <div class="herocontainer">
+                <h1 class="herotitle" id="herotitle"></h1>
+                <div class="model-container">
+                    <model-viewer alt="" src="3d-models/wooden_plate_-_historic_environment_scotland.glb" ></model-viewer>
+                </div>
+
+                <p class="herodesc" id="herodesc"></p>
+            </div>
+        </section>
+
+        <section class="farmsection">
+            <div class="farmcontainer">
+                <h1 class="farmtitle" id="farmtitle"></h1>
+                <model-viewer class="model2" alt="" src="3d-models/cuttingboard.glb" ></model-viewer>
+            </div>
+        </section>
+
+        <section class="selectionsection">
+            <div class="selectioncontainer">
+                <h1 class="selectiontitle" id="selectiontitle"></h1>
+                <p class="selectiondesc" id="selectiondesc"></p>
+                <div class="selectionrow">
+                    <div class="selectioncard">
+                        <div class="selectionimage"></div>
+                        <h1 class="selectionname" id="selectionname"></h1>
+                    </div>
+                    <div class="selectioncard">
+                        <div class="selectionimage2"></div>
+                        <h1 class="selectionname2" id="selectionname2"></h1>
+                    </div>
+                    <div class="selectioncard">
+                        <div class="selectionimage3"></div>
+                        <h1 class="selectionname3" id="selectionname3"></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mealsection">
+            <div class="mealcontainer">
+                <h1 class="mealtitle" id="mealtitle"></h1>
+                <div class="mealrow">
+                    <div class="mealleft">
+                        <div class="mealimage"></div>
+                        <h1 class="mealname" id="mealname"></h1>
+                        <div class="mealbtn" id="mealbtn"></div>
+                    </div>
+                    <div class="mealright">
+                        <div class="mealimage2"></div>
+                        <h1 class="mealname2" id="mealname2"></h1>
+                        <div class="mealbtn2" id="mealbtn2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="productsection">
+            <div class="productcontainer">
+                <h1 class="producttitle" id="producttitle">PRODUCT INFORMATION</h1>
+                <div class="productsgrid" id="productsgrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="stocksection">
+            <div class="stockcontainer">
+                <h1 class="stocktitle" id="stocktitle"></h1>
+                <p class="stockdesc" id="stockdesc"></p>
+                <div class="stockgrid">
+                    <div class="stockitem">
+                        <div class="stockimage"></div>
+                    </div>
+                    <div class="stockitem">
+                        <div class="stockimage2"></div>
+                    </div>
+                    <div class="stockitem">
+                        <div class="stockimage3"></div>
+                    </div>
+                    <div class="stockitem">
+                        <div class="stockimage4"></div>
+                    </div>
+                    <div class="stockitem">
+                        <div class="stockimage5"></div>
+                    </div>
+                    <div class="stockitem">
+                        <div class="stockimage6"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="contactsection">
+            <div class="contactcontainer">
+                <div class="contactleft">
+                    <h1 class="contactlogo" id="contactlogo"></h1>
+                    <p class="contactdesc" id="contactdesc"></p>
+                    <div class="socialicons">
+                        <div class="socialicon"></div>
+                        <div class="socialicon2"></div>
+                        <div class="socialicon3"></div>
+                        <div class="socialicon4"></div>
+                    </div>
+                </div>
+                <div class="contactright">
+                    <h1 class="contacttitle" id="contacttitle"></h1>
+                    <div class="contactform">
+                        <input type="text" class="forminput" id="forminput" placeholder="">
+                        <input type="text" class="forminput2" id="forminput2" placeholder="">
+                        <div class="submitbtn" id="submitbtn"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>

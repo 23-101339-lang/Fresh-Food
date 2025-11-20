@@ -1,0 +1,1038 @@
+@font-face {
+    font-family: PlayFair;
+    src: url('PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: Greater Theory;
+    src: url('GreaterTheory.otf');
+}
+
+.bigdiv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.navsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 20px 80px;
+    box-sizing: border-box;
+}
+
+.navcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: Greater Theory;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.navmenu{
+    display: flex;
+    gap: 40px;
+}
+
+.navlink{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navlink2{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navlink3{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navlink4{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navicons{
+    display: flex;
+    gap: 20px;
+}
+
+.searchicon{
+    width: 24px;
+    height: 24px;
+    background-image: url('Images/fluent-mdl2_world.png');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.usericon{
+    width: 24px;
+    height: 24px;
+    background-image: url('Images/Vector.png');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.herosection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.herocontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.herotitle{
+    font-family: Greater Theory;
+    font-size: 80px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+    max-width: 900px;
+}
+
+.herodesc{
+    font-family: PlayFair;
+    font-size: 20px;
+    color: #C8D4C8;
+    text-align: left;
+    max-width: 600px;
+    line-height: 1.6;
+    position: relative;
+    left: 30%;
+    margin-top: 100px;
+}
+
+.farmsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.farmcontainer{
+    display: flex;
+    align-items: flex-start;
+}
+
+.farmimage{
+    width: 600px;
+    height: 400px;
+    background: #8B9C8B;
+    border-radius: 20px;
+}
+
+.farmtitle{
+    font-family: Greater Theory;
+    font-size: 90px;
+    color: #AABF9E;
+    font-weight: 700;
+    line-height: 1.1;
+    width: 50%;
+    align-self: center;
+}
+
+.selectionsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+.selectioncontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.selectiontitle{
+    font-family: Greater Theory;
+    font-size: 96px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.selectiondesc{
+    font-family: PlayFair;
+    font-size: 20px;
+    color: #C8D4C8;
+    text-align: center;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.selectionrow{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.selectioncard{
+    display: flex;
+    flex-direction: column;
+    background: #8B9C8B;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 20px;
+    width: 33.33%;
+    transition: all 0.3s ease;
+}
+
+.selectioncard:hover{
+    transform: translateY(-10px);
+}
+
+.selectionimage{
+    width: 120px;
+    height: 120px;
+    background-image: url('Images/0bbfd9ee-bc9e-4508-97cd-c97d1edeb5a2 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selectionimage2{
+    width: 120px;
+    height: 120px;
+    background-image: url('Images/grilled-zucchini-with-vegetables-tomato-sauce-concept-vegetarian-food 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selectionimage3{
+    width: 120px;
+    height: 120px;
+    background-image: url('Images/mixed-vegetable-salad-with-colorful-food 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selectionname{
+    font-family: Greater Theory;
+    font-size: 20px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.selectionname2{
+    font-family: Greater Theory;
+    font-size: 20px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.selectionname3{
+    font-family: Greater Theory;
+    font-size: 20px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mealsection{
+    width: 100%;
+    background: #B8C9B8;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.mealcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mealtitle{
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #2D3E2D;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mealrow{
+    display: flex;
+    gap: 40px;
+}
+
+.mealleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.mealright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.mealimage{
+    width: 250px;
+    height: 250px;
+    background-image: url('Images/Thai Coconut Shrimp Curry Recipe - Peas and Crayons 1.png') ;
+    background-size: cover;
+    background-position: center;
+}
+
+.mealimage2{
+    width: 320px;
+    height: 250px;
+    background-image: url('Images/plate-with-cooked-barbecue-vegetables-table 1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.mealname{
+    font-family: Greater Theory;
+    font-size: 28px;
+    color: #2D3E2D;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mealname2{
+    font-family: Greater Theory;
+    font-size: 28px;
+    color: #2D3E2D;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mealbtn{
+    padding: 12px 32px;
+    background: #2D3E2D;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mealbtn:hover{
+    background: #1F2B1F;
+}
+
+.mealbtn2{
+    padding: 12px 32px;
+    background: #2D3E2D;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mealbtn2:hover{
+    background: #1F2B1F;
+}
+
+.stocksection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px;
+    box-sizing: border-box;
+    padding-bottom: 120px;
+    border-bottom: 1px solid grey;
+}
+
+.stockcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.stocktitle{
+    font-family: Greater Theory;
+    font-size: 56px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stockdesc{
+    font-family: PlayFair;
+    font-size: 20px;
+    color: #C8D4C8;
+    text-align: center;
+}
+
+.stockgrid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.stockitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.stockimage{
+    width: 180px;
+    height: 150px;
+    background-image: url('Images/Ervilhas (Kg) (1) 1.png');
+    background-size: cover;
+}
+
+.stockimage2{
+    width: 180px;
+    height: 150px;
+    background-image: url('Images/download (22) (1) 1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.stockimage3{
+    width: 200px;
+    height: 150px;
+    background-image: url('Images/A Comprehensive List of _Deadly_ Nightshades (1) 1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.stockimage4{
+    width: 180px;
+    height: 170px;
+    background-image: url('Images/download (23) (1) 1.png');
+    background-size: cover;
+}
+
+.stockimage5{
+    width: 180px;
+    height: 150px;
+    background-image: url('Images/Red Onion with Cut in Half Isolated on White Background_ Stock Image - Image of background, plant_ 105173215 (1) 1.png');
+    background-size: cover;
+}
+
+.stockimage6{
+    width: 200px;
+    height: 150px;
+    background-image: url('Images/Wheat (1) 1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.contactsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.contactcontainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.contactleft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.contactlogo{
+    font-family: Greater Theory;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.contactdesc{
+    font-family: PlayFair;
+    font-size: 20px;
+    color: #C8D4C8;
+    line-height: 1.6;
+}
+
+.socialicons{
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.socialicon{
+    width: 32px;
+    height: 32px;
+    background-image: url('Images/basil_gmail-solid.png');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.socialicon2{
+    width: 32px;
+    height: 32px;
+    background-image: url('Images/mdi_twitter.png');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.socialicon3{
+    width: 32px;
+    height: 32px;
+    background-image: url('Images/mingcute_instagram-fill.png');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.socialicon4{
+    width: 32px;
+    height: 32px;
+    background-image: url('Images/ri_facebook-fill.png');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.contactright{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.contacttitle{
+    font-family: Greater Theory;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.forminput{
+    padding: 14px 20px;
+    background: transparent;
+    border: 2px solid #6B7C6E;
+    border-radius: 8px;
+    font-family: PlayFair;
+    font-size: 14px;
+    color: #FFF;
+    outline: none;
+}
+
+.forminput::placeholder{
+    color: #8B9C8B;
+}
+
+.forminput2{
+    padding: 14px 20px;
+    background: transparent;
+    border: 2px solid #6B7C6E;
+    border-radius: 8px;
+    font-family: PlayFair;
+    font-size: 14px;
+    color: #FFF;
+    outline: none;
+}
+
+.forminput2::placeholder{
+    color: #8B9C8B;
+}
+
+.submitbtn{
+    padding: 14px 32px;
+    background: #8B9C8B;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.submitbtn:hover{
+    background: #6B7C6E;
+}
+
+.model-container{
+    display: block; 
+    width: 400px; 
+    height: 140px; 
+    border: 2px solid red;
+    position: absolute;
+    top: 300px;
+}
+
+.model2{
+    width: 50%;
+    height: 560px;
+    border: 2px solid red;
+}
+
+.bigletter{
+    position: absolute;
+    font-size: 900px;
+    color: white;
+    opacity: 7%;
+    cursor: default;
+    top: 0px;
+    font-family: Playfair;
+    line-height: 1;
+    z-index: 1;
+}
+
+
+.productsection {
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    padding-bottom: 140px;
+}
+
+.productcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.producttitle {
+    font-family: Greater Theory;
+    font-size: 56px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.productsgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.productcard {
+    background: #8B9C8B;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all 0.3s ease;
+}
+
+.productcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.productimage {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.productinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.productname {
+    font-family: Greater Theory;
+    font-size: 24px;
+    color: #F5F5DC;
+    font-weight: 700;
+    margin: 0;
+}
+
+.productmeta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.productcategory {
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #F5F5DC;
+    font-weight: 600;
+    margin: 0;
+}
+
+.productdot {
+    width: 4px;
+    height: 4px;
+    background: #F5F5DC;
+    border-radius: 50%;
+}
+
+.productorigin {
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #F5F5DC;
+    font-weight: 600;
+    margin: 0;
+}
+
+.productnutrition {
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #F5F5DC;
+    line-height: 1.5;
+    margin: 0;
+}
+
+section {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.8s ease-out;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.productcard {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.6s ease-out;
+}
+
+.productcard.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.navlink:hover, .navlink2:hover, .navlink3:hover, .navlink4:hover {
+    transform: translateY(-2px);
+}
+
+.mealbtn:hover, .mealbtn2:hover, .submitbtn:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .navsection {
+        padding: 20px 40px;
+    }
+    
+    .herosection, .selectionsection, .mealsection, .productsection, .stocksection, .contactsection {
+        padding: 60px 40px;
+    }
+    
+    .herotitle {
+        font-size: 60px;
+        max-width: 700px;
+    }
+    
+    .farmtitle {
+        font-size: 70px;
+    }
+    
+    .selectiontitle {
+        font-size: 72px;
+    }
+    
+    .selectionrow {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .selectioncard {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .mealrow {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .mealleft, .mealright {
+        width: 100%;
+    }
+    
+    .productsgrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .stockgrid {
+        gap: 15px;
+    }
+    
+    .stockitem {
+        width: 45%;
+    }
+    
+    .contactcontainer {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .contactleft, .contactright {
+        width: 100%;
+    }
+    
+    .herodesc {
+        left: 20%;
+        max-width: 500px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .navsection {
+        padding: 15px 20px;
+    }
+    
+    .navmenu {
+        gap: 20px;
+    }
+    
+    .herosection, .selectionsection, .mealsection, .productsection, .stocksection, .contactsection {
+        padding: 40px 20px;
+    }
+    
+    .farmsection {
+        padding-left: 20px;
+    }
+    
+    .herotitle {
+        font-size: 40px;
+        max-width: 100%;
+    }
+    
+    .farmtitle {
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .selectiontitle {
+        font-size: 48px;
+    }
+    
+    .mealtitle {
+        font-size: 36px;
+    }
+    
+    .stocktitle, .producttitle {
+        font-size: 40px;
+    }
+    
+    .productsgrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .productcard {
+        padding: 20px;
+    }
+    
+    .stockgrid {
+        gap: 10px;
+    }
+    
+    .stockitem {
+        width: 100%;
+    }
+    
+    .stockimage, .stockimage2, .stockimage3, 
+    .stockimage4, .stockimage5, .stockimage6 {
+        width: 150px;
+        height: 120px;
+    }
+    
+    .herodesc {
+        left: 0;
+        max-width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .selectiondesc, .stockdesc, .contactdesc {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    
+    .bigletter {
+        font-size: 500px;
+    }
+    
+    .model-container {
+        width: 300px;
+        height: 100px;
+        top: 250px;
+    }
+    
+    .model2 {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .farmcontainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .navcontainer {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .navmenu {
+        order: 2;
+    }
+    
+    .navicons {
+        order: 3;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .herotitle {
+        font-size: 32px;
+    }
+    
+    .farmtitle {
+        font-size: 36px;
+    }
+    
+    .selectiontitle {
+        font-size: 36px;
+    }
+    
+    .producttitle, .stocktitle {
+        font-size: 32px;
+    }
+    
+    .mealtitle {
+        font-size: 28px;
+    }
+    
+    .mealname, .mealname2 {
+        font-size: 22px;
+    }
+    
+    .productname {
+        font-size: 20px;
+    }
+    
+    .bigletter {
+        font-size: 300px;
+    }
+    
+    .model-container {
+        width: 250px;
+        height: 80px;
+        top: 200px;
+    }
+    
+    .navmenu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .socialicons {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #4A5D4F;
+}
