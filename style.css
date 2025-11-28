@@ -605,7 +605,6 @@
     display: block; 
     width: 400px; 
     height: 140px; 
-    border: 2px solid red;
     position: absolute;
     top: 300px;
 }
@@ -613,7 +612,6 @@
 .model2{
     width: 50%;
     height: 560px;
-    border: 2px solid red;
 }
 
 .bigletter{
@@ -622,7 +620,7 @@
     color: white;
     opacity: 7%;
     cursor: default;
-    top: 0px;
+    top: 200px;
     font-family: Playfair;
     line-height: 1;
     z-index: 1;
@@ -766,6 +764,2138 @@ section.show {
 .mealbtn:hover, .mealbtn2:hover, .submitbtn:hover {
     transform: scale(1.05);
 }
+
+/* aboutus */
+
+.topnav{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 20px 80px;
+    box-sizing: border-box;
+}
+
+.topnavwrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brandname{
+    font-family: Greater Theory;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.menulist{
+    display: flex;
+    gap: 40px;
+}
+
+.menuitem{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menuitem2{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menuitem3{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menuitem4{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.topicons{
+    display: flex;
+    gap: 20px;
+}
+
+.searchbtn{
+    width: 24px;
+    height: 24px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profilebtn{
+    width: 24px;
+    height: 24px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.originsection{
+    width: 100%;
+    background: #4A5D4F;
+    height: 70vh;
+    padding: 0px 80px;
+    box-sizing: border-box;
+}
+
+.originwrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.origintitle{
+    font-family: Greater Theory;
+    font-size: 128px;
+    color: #F5F5DC;
+    font-weight: 700;
+    line-height: 1;
+    width: 80%;
+}
+
+.origintext{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+.originvisual{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 0px;
+}
+
+.journeysection{
+    width: 100%;
+    background: #B8C9B8;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.journeywrap{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.journeyvisual{
+    width: 40%;
+}
+
+.journeypic{
+    width: 100%;
+    height: 400px;
+    background-image: url('Images/2148685776 1.png');
+}
+
+.journeyinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.journeyheading{
+    font-family: Greater Theory;
+    font-size: 56px;
+    color: #F5F5DC;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.journeypara{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #4A5D4F;
+    line-height: 1.6;
+}
+
+.journeypara2{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #4A5D4F;
+    line-height: 1.6;
+}
+
+.drinksection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.drinkwrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.drinkheading{
+    font-family: Greater Theory;
+    font-size: 56px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.drinkpara{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    text-align: center;
+    max-width: 600px;
+}
+
+.drinkvisuals{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.drinkpic{
+    width: 300px;
+    height: 300px;
+    background-image: url('Images/6612085_466 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.drinkpic2{
+    width: 292px;
+    height: 443px;
+    background-image: url('Images/Strawberry Fizz Cocktail Recipe _ How to Make the perfect Strawberry Fizz.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+}
+
+.drinkpic3{
+    width: 300px;
+    height: 300px;
+    background-image: url('Images/6612085_466 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.favoritesection{
+    width: 100%;
+    background: #B8C9B8;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.favoritewrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.favoriteheading{
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #2D3E2D;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.favoritepara{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #4A5D4F;
+    text-align: center;
+    max-width: 600px;
+}
+
+.favoritevisual{
+    width: 500px;
+    height: 300px;
+    background-image: url('Images/burritos-wraps-with-minced-beef-vegetables-wooden-surface 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.orderbutton{
+    padding: 12px 32px;
+    background: #6B7C6E;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.orderbutton:hover{
+    background: #4A5D4F;
+}
+
+.specialsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.specialwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.specialheading{
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.specialcontent{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.specialvisual{
+    width: 623px;
+    height: 300px;
+    background-image: url('Images/397 1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.specialpara{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.reviewsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+.reviewwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviewlabel{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    text-align: center;
+}
+
+.reviewheading{
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.reviewcontent{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.reviewbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviewerpic{
+    width: 160px;
+    height: 170px;
+    background-image: url('Images/Lifestyle Photography — New York Food Photographer Moriah Sawtelle 1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reviewquote{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    text-align: center;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+.reachsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.reachwrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.reachinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.reachbrand{
+    font-family: Greater Theory;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.reachtext{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    line-height: 1.6;
+}
+
+.reachsocial{
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.reachicon{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.reachicon2{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.reachicon3{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.reachicon4{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.reacharea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.reachheading{
+    font-family: Greater Theory;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.reachfields{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.emailfield{
+    padding: 14px 20px;
+    background: transparent;
+    border: 2px solid #6B7C6E;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    outline: none;
+}
+
+.emailfield::placeholder{
+    color: #8B9C8B;
+}
+
+.namefield{
+    padding: 14px 20px;
+    background: transparent;
+    border: 2px solid #6B7C6E;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    outline: none;
+}
+
+.namefield::placeholder{
+    color: #8B9C8B;
+}
+
+.sendbutton{
+    padding: 14px 32px;
+    background: #8B9C8B;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.sendbutton:hover{
+    background: #6B7C6E;
+}
+
+
+/* Products */
+
+
+.bigdiv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.headersection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 20px 80px;
+    box-sizing: border-box;
+}
+
+.headerwrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companyname{
+    font-family: Greater Theory;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.navigation{
+    display: flex;
+    gap: 40px;
+}
+
+.navitem{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navitem2{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navitem3{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navitem4{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.headerbtns{
+    display: flex;
+    gap: 20px;
+}
+
+.findbtn{
+    width: 24px;
+    height: 24px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.accountbtn{
+    width: 24px;
+    height: 24px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bannersection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.bannerwrap{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.bannerleft{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+}
+
+.bannerheading{
+    font-family: Greater Theory;
+    font-size: 72px;
+    color: #F5F5DC;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.bannertext{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    line-height: 1.6;
+    max-width: 450px;
+}
+
+.bannerbutton{
+    padding: 14px 32px;
+    background: #F5F5DC;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #2D3E2D;
+    font-weight: 700;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.bannerbutton:hover{
+    background: #E5E5CC;
+}
+
+.bannerright{
+    width: 50%;
+    height: 100vh;
+    margin-top: 60px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    background-image: url('Images/Group 37.png');
+}
+
+.heroimage{
+    background-image: url('Images/image_2-removebg-preview.png');
+    width: 450px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 15%;
+    top: 26%;
+    z-index: 2;
+}
+
+.dishsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 40px 80px;
+    box-sizing: border-box;
+}
+
+.dishwrap{
+    display: flex;
+    gap: 24px;
+}
+
+.dishcard{
+    display: flex;
+    flex-direction: column;
+    background: #B8C9B8;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 25%;
+    gap: 12px;
+    transition: all 0.3s ease;
+}
+
+.dishcard:hover{
+    transform: translateY(-10px);
+}
+
+.dishpic{
+    width: 100%;
+    height: 180px;
+    background-image: url('Images/image_3-removebg-previedw.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dishpic2{
+    width: 100%;
+    height: 180px;
+    background-image: url('Images/image_2-removdebg-preview 1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dishpic3{
+    width: 100%;
+    height: 180px;
+    background-image: url('Images/imaged_2-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dishpic4{
+    width: 100%;
+    height: 180px;
+    background-image: url('Images/image_4-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dishname{
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.dishname2{
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.dishname3{
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.dishname4{
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.dishbtn{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dishbtn:hover{
+    background: #1F2B1F;
+}
+
+.dishbtn2{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dishbtn2:hover{
+    background: #1F2B1F;
+}
+
+.dishbtn3{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dishbtn3:hover{
+    background: #1F2B1F;
+}
+
+.dishbtn4{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dishbtn4:hover{
+    background: #1F2B1F;
+}
+
+.juicesection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.juicewrap{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.juiceheading{
+    font-family: Greater Theory;
+    font-size: 56px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.juicesubheading{
+    font-family: Greater Theory;
+    font-size: 40px;
+    color: #F5F5DC;
+    font-weight: 400;
+    text-align: center;
+}
+
+.juicerow{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.juiceleft{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.juicepic{
+    width: 350px;
+    height: 450px;
+    background-image: url('Images/image 6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.juiceright{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 60%;
+}
+
+.juiceitem{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.juicethumb{
+    width: 100px;
+    height: 100px;
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_2-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.juicethumb2{
+    width: 100px;
+    height: 100px;
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_4-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.juicethumb3{
+    width: 100px;
+    height: 100px;
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_5-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.juicethumb4{
+    width: 100px;
+    height: 100px;
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_6-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.juicethumb5{
+    width: 100px;
+    height: 100px;
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_7-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.juicethumb6{
+    width: 100px;
+    height: 100px;
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_8-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.juicedetails{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.juicetitle{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+}
+
+.juicetitle2{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+}
+
+.juicetitle3{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+}
+
+.juicetitle4{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+}
+
+.juicetitle5{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+}
+
+.juicetitle6{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+}
+
+.juiceaction{
+    padding: 8px 20px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.juiceaction:hover{
+    background: #1F2B1F;
+}
+
+.juiceaction2{
+    padding: 8px 20px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.juiceaction2:hover{
+    background: #1F2B1F;
+}
+
+.juiceaction3{
+    padding: 8px 20px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.juiceaction3:hover{
+    background: #1F2B1F;
+}
+
+.juiceaction4{
+    padding: 8px 20px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.juiceaction4:hover{
+    background: #1F2B1F;
+}
+
+.juiceaction5{
+    padding: 8px 20px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.juiceaction5:hover{
+    background: #1F2B1F;
+}
+
+.juiceaction6{
+    padding: 8px 20px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.juiceaction6:hover{
+    background: #1F2B1F;
+}
+
+.offersection{
+    width: 100%;
+    background: #B8C9B8;
+    padding: 40px 80px;
+    box-sizing: border-box;
+}
+
+.offerwrap{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.offerheading{
+    font-family: Greater Theory;
+    font-size: 28px;
+    color: #2D3E2D;
+    font-weight: 700;
+    width: 30%;
+}
+
+.offerform{
+    display: flex;
+    gap: 16px;
+    flex: 1;
+}
+
+.offerfield{
+    padding: 12px 20px;
+    background: #FFF;
+    border: none;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #2D3E2D;
+    outline: none;
+    flex: 1;
+}
+
+.offerfield::placeholder{
+    color: #8B9C8B;
+}
+
+.offerfield2{
+    padding: 12px 20px;
+    background: #FFF;
+    border: none;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #2D3E2D;
+    outline: none;
+    flex: 1;
+}
+
+.offerfield2::placeholder{
+    color: #8B9C8B;
+}
+
+.offersubmit{
+    padding: 12px 28px;
+    background: #2D3E2D;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.offersubmit:hover{
+    background: #1F2B1F;
+}
+
+.productsection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.productwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.productheading{
+    font-family: Greater Theory;
+    font-size: 56px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.productgrid{
+    display: flex;
+    gap: 24px;
+}
+
+.productbox{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.productbox:hover{
+    transform: translateY(-10px);
+}
+
+.productpic{
+    width: 100%;
+    height: 240px;
+    background: #F8B4D9;
+    background-image: url('Images/image_8-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productpic2{
+    width: 100%;
+    height: 240px;
+    background: #FDE68A;
+    background-image: url('Images/image 8.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productpic3{
+    width: 100%;
+    height: 240px;
+    background: #BBF7D0;
+    background-image: url('Images/image 9.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productpic4{
+    width: 100%;
+    height: 240px;
+    background: #BFDBFE;
+    background-image: url('Images/image_11-removebg-preview 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productinfoo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 12px;
+    background: #F5F5DC;
+}
+
+.productlabel{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.productlabel2{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.productlabel3{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.productlabel4{
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #2D3E2D;
+    font-weight: 700;
+}
+
+.productaction{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productaction:hover{
+    background: #1F2B1F;
+}
+
+.productaction2{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productaction2:hover{
+    background: #1F2B1F;
+}
+
+.productaction3{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productaction3:hover{
+    background: #1F2B1F;
+}
+
+.productaction4{
+    padding: 8px 16px;
+    background: #2D3E2D;
+    border-radius: 6px;
+    font-family: Greater Theory;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productaction4:hover{
+    background: #1F2B1F;
+}
+
+.footersection{
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.footerwrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.footerbrand{
+    font-family: Greater Theory;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.footertext{
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #C8D4C8;
+    line-height: 1.6;
+}
+
+.footersocial{
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.footericon{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footericon2{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footericon3{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footericon4{
+    width: 32px;
+    height: 32px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footerform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+.footerheading{
+    font-family: Greater Theory;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.footerfields{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footerinput{
+    padding: 14px 20px;
+    background: transparent;
+    border: 2px solid #6B7C6E;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    outline: none;
+}
+
+.footerinput::placeholder{
+    color: #8B9C8B;
+}
+
+.footerinput2{
+    padding: 14px 20px;
+    background: transparent;
+    border: 2px solid #6B7C6E;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    outline: none;
+}
+
+.footerinput2::placeholder{
+    color: #8B9C8B;
+}
+
+.footersubmit{
+    padding: 14px 32px;
+    background: #8B9C8B;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.footersubmit:hover{
+    background: #6B7C6E;
+}
+
+
+
+/* menu */
+
+
+.menuherosection {
+    width: 100%;
+    background: #4A5D4F;
+    padding: 100px 80px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menuherowrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuherotitle {
+    font-family: Greater Theory;
+    font-size: 80px;
+    color: #F5F5DC;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.menuherodesc {
+    font-family: PlayFair;
+    font-size: 18px;
+    color: #C8D4C8;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.menucategorysection {
+    width: 100%;
+    background: #B8C9B8;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+.menucategorywrap {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.menucategorycard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+    background: #4A5D4F;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menucategorycard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.menucategoryicon {
+    width: 80px;
+    height: 80px;
+    background: #F5F5DC;
+    border-radius: 50%;
+    background-image: url('Images/Thai Coconut Shrimp Curry Recipe - Peas and Crayons 1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.menucategoryicon2 {
+    width: 80px;
+    height: 80px;
+    background: #F5F5DC;
+    border-radius: 50%;
+    background-image: url('Images/mixed-vegetable-salad-with-colorful-food 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menucategoryicon3 {
+    width: 80px;
+    height: 80px;
+    background: #F5F5DC;
+    border-radius: 50%;
+    background-image: url('Images/Strawberry Fizz Cocktail Recipe _ How to Make the perfect Strawberry Fizz.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.menucategoryicon4 {
+    width: 80px;
+    height: 80px;
+    background: #F5F5DC;
+    border-radius: 50%;
+    background-image: url('Images/397 1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menucategoryname, .menucategoryname2, .menucategoryname3, .menucategoryname4 {
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #F5F5DC;
+    font-weight: 600;
+}
+
+.menuitemssection {
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.menuitemswrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menuitemstitle {
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menuitemsgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.menucard {
+    display: flex;
+    gap: 20px;
+    background: #8B9C8B;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.menucard.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menucard:hover {
+    transform: scale(1.02);
+}
+
+.menuimage, .menuimage2, .menuimage3, .menuimage4 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.menuimage {
+    background-image: url('Images/image_3-removebg-previedw.png');
+    background-color: #F5F5DC;
+}
+
+.menuimage2 {
+    background-image: url('Images/grilled-zucchini-with-vegetables-tomato-sauce-concept-vegetarian-food 1.png');
+    background-color: #F5F5DC;
+}
+
+.menuimage3 {
+    background-image: url('Images/plate-with-cooked-barbecue-vegetables-table 1.png');
+    background-color: #F5F5DC;
+}
+
+.menuimage4 {
+    background-image: url('Images/image_2-removebg-preview.png');
+    background-color: #F5F5DC;
+}
+
+.menudetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.menutitle, .menutitle2, .menutitle3, .menutitle4 {
+    font-family: Greater Theory;
+    font-size: 20px;
+    color: #F5F5DC;
+    font-weight: 700;
+    margin: 0;
+}
+
+.menudesc, .menudesc2, .menudesc3, .menudesc4 {
+    font-family: PlayFair;
+    font-size: 14px;
+    color: #F5F5DC;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.menuprice, .menuprice2, .menuprice3, .menuprice4 {
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+    margin-top: auto;
+}
+
+.menusaladssection {
+    width: 100%;
+    background: #B8C9B8;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.menusaladswrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menusaladstitle {
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #2D3E2D;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menusaladsgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.menusaladcard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #4A5D4F;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.menusaladcard.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.menusaladcard:hover {
+    transform: translateY(-5px);
+}
+
+.menusaladimage, .menusaladimage2, .menusaladimage3 {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.menusaladimage {
+    background-image: url('Images/mixed-vegetable-salad-with-colorful-food 1.png');
+}
+
+.menusaladimage2 {
+    background-image: url('Images/0bbfd9ee-bc9e-4508-97cd-c97d1edeb5a2 1.png');
+}
+
+.menusaladimage3 {
+    background-image: url('Images/grilled-zucchini-with-vegetables-tomato-sauce-concept-vegetarian-food 1.png');
+}
+
+.menusaladname, .menusaladname2, .menusaladname3 {
+    font-family: Greater Theory;
+    font-size: 20px;
+    color: #F5F5DC;
+    font-weight: 700;
+    margin: 0;
+}
+
+.menusaladdesc, .menusaladdesc2, .menusaladdesc3 {
+    font-family: PlayFair;
+    font-size: 14px;
+    color: #C8D4C8;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.menusaladprice, .menusaladprice2, .menusaladprice3 {
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+}
+
+.menudrinkssection {
+    width: 100%;
+    background: #4A5D4F;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.menudrinkswrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menudrinkstitle {
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #F5F5DC;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menudrinksgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.menudrinkitem {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: #8B9C8B;
+    border-radius: 12px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.menudrinkitem:hover {
+    transform: translateX(5px);
+}
+
+.menudrinkthumb, .menudrinkthumb2, .menudrinkthumb3, .menudrinkthumb4 {
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.menudrinkthumb {
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_2-removebg-preview 1.png');
+}
+
+.menudrinkthumb2 {
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_5-removebg-preview 1.png');
+}
+
+.menudrinkthumb3 {
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_8-removebg-preview 1.png');
+}
+
+.menudrinkthumb4 {
+    background-image: url('Images/Screenshot_2025-11-27_at_12.58.34_PM_7-removebg-preview 1.png');
+}
+
+.menudrinkinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.menudrinkname, .menudrinkname2, .menudrinkname3, .menudrinkname4 {
+    font-family: Greater Theory;
+    font-size: 18px;
+    color: #F5F5DC;
+    font-weight: 700;
+    margin: 0;
+}
+
+.menudrinkprice, .menudrinkprice2, .menudrinkprice3, .menudrinkprice4 {
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #F5F5DC;
+    font-weight: 600;
+}
+
+.menudealssection {
+    width: 100%;
+    background: #B8C9B8;
+    padding: 80px 80px;
+    box-sizing: border-box;
+}
+
+.menudealswrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.menudealstitle {
+    font-family: Greater Theory;
+    font-size: 48px;
+    color: #2D3E2D;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menudealsdesc {
+    font-family: PlayFair;
+    font-size: 16px;
+    color: #4A5D4F;
+    text-align: center;
+    max-width: 600px;
+}
+
+.menudealsbox {
+    display: flex;
+    gap: 40px;
+    background: #4A5D4F;
+    border-radius: 12px;
+    padding: 40px;
+    box-sizing: border-box;
+    max-width: 900px;
+    transition: all 0.3s ease;
+}
+
+.menudealsbox:hover {
+    transform: scale(1.02);
+}
+
+.menudealimage {
+    width: 300px;
+    height: 300px;
+    background-image: url('Images/burritos-wraps-with-minced-beef-vegetables-wooden-surface 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.menudealcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.menudealname {
+    font-family: Greater Theory;
+    font-size: 28px;
+    color: #F5F5DC;
+    font-weight: 700;
+    margin: 0;
+}
+
+.menudealdesc {
+    font-family: PlayFair;
+    font-size: 16px;
+    color: #C8D4C8;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.menudealbtn {
+    padding: 14px 28px;
+    background: #F5F5DC;
+    border-radius: 8px;
+    font-family: Greater Theory;
+    font-size: 16px;
+    color: #2D3E2D;
+    font-weight: 700;
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.menudealbtn:hover {
+    background: #E5E5CC;
+    transform: translateY(-2px);
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .menuherosection {
+        padding: 80px 40px;
+    }
+    
+    .menuherotitle {
+        font-size: 64px;
+    }
+    
+    .menucategorysection, .menuitemssection, .menusaladssection, .menudrinkssection, .menudealssection {
+        padding: 60px 40px;
+    }
+    
+    .menucategorywrap {
+        flex-wrap: wrap;
+    }
+    
+    .menuitemsgrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .menusaladsgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .menudealsbox {
+        gap: 30px;
+        padding: 30px;
+    }
+    
+    .menudealimage {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menuherosection {
+        padding: 60px 20px;
+    }
+    
+    .menuherotitle {
+        font-size: 48px;
+    }
+    
+    .menuherodesc {
+        font-size: 16px;
+    }
+    
+    .menucategorysection, .menuitemssection, .menusaladssection, .menudrinkssection, .menudealssection {
+        padding: 40px 20px;
+    }
+    
+    .menucategorywrap {
+        gap: 15px;
+    }
+    
+    .menucategorycard {
+        padding: 20px;
+    }
+    
+    .menuitemstitle, .menusaladstitle, .menudrinkstitle, .menudealstitle {
+        font-size: 36px;
+    }
+    
+    .menucard {
+        flex-direction: column;
+    }
+    
+    .menuimage, .menuimage2, .menuimage3, .menuimage4 {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .menusaladsgrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .menudrinksgrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .menudealsbox {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .menudealimage {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menuherotitle {
+        font-size: 36px;
+    }
+    
+    .menuitemstitle, .menusaladstitle, .menudrinkstitle, .menudealstitle {
+        font-size: 28px;
+    }
+    
+    .menucategoryicon, .menucategoryicon2, .menucategoryicon3, .menucategoryicon4 {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1002,6 +3132,367 @@ section.show {
 
 
 
+
+
+
+/* About */
+@media (max-width: 1024px) {
+    .originsection {
+        padding: 60px 40px;
+        height: auto;
+        min-height: 60vh;
+    }
+    
+    .origintitle {
+        font-size: 96px;
+        width: 100%;
+    }
+    
+    .originvisual {
+        width: 400px;
+        height: 400px;
+        right: -50px;
+    }
+    
+    .journeysection, .drinksection, .favoritesection, .specialsection, .reviewsection {
+        padding: 60px 40px;
+    }
+    
+    .journeywrap {
+        gap: 40px;
+    }
+    
+    .journeyvisual {
+        width: 45%;
+    }
+    
+    .journeyinfo {
+        width: 55%;
+    }
+    
+    .journeyheading {
+        font-size: 44px;
+    }
+    
+    .drinkheading, .specialheading, .reviewheading {
+        font-size: 44px;
+    }
+    
+    .drinkvisuals {
+        gap: 20px;
+    }
+    
+    .drinkpic, .drinkpic3 {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .drinkpic2 {
+        width: 250px;
+        height: 380px;
+    }
+    
+    .favoritevisual {
+        width: 400px;
+        height: 250px;
+    }
+    
+    .specialcontent {
+        gap: 40px;
+    }
+    
+    .specialvisual {
+        width: 500px;
+    }
+}
+
+/* Mobile - About Page */
+@media (max-width: 767px) {
+    .originsection {
+        padding: 40px 20px;
+        height: auto;
+    }
+    
+    .origintitle {
+        font-size: 64px;
+        width: 100%;
+    }
+    
+    .originvisual {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: auto;
+        margin: 0 auto;
+    }
+    
+    .journeysection, .drinksection, .favoritesection, .specialsection, .reviewsection {
+        padding: 40px 20px;
+    }
+    
+    .journeywrap {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .journeyvisual {
+        width: 100%;
+    }
+    
+    .journeypic {
+        height: 300px;
+    }
+    
+    .journeyinfo {
+        width: 100%;
+    }
+    
+    .journeyheading {
+        font-size: 36px;
+    }
+    
+    .drinkheading {
+        font-size: 36px;
+    }
+    
+    .drinkvisuals {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .drinkpic, .drinkpic3 {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .drinkpic2 {
+        width: 200px;
+        height: 300px;
+    }
+    
+    .favoriteheading {
+        font-size: 32px;
+    }
+    
+    .favoritevisual {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .specialheading {
+        font-size: 32px;
+    }
+    
+    .specialcontent {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .specialvisual {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .reviewheading {
+        font-size: 32px;
+    }
+    
+    .reviewerpic {
+        width: 120px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .origintitle {
+        font-size: 48px;
+    }
+    
+    .journeyheading, .drinkheading, .favoriteheading, .specialheading, .reviewheading {
+        font-size: 28px;
+    }
+    
+    .originvisual {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+/* Products */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .bannersection {
+        padding: 60px 40px;
+    }
+    
+    .bannerheading {
+        font-size: 56px;
+    }
+    
+    .bannerright {
+        width: 40%;
+    }
+    
+    .heroimage {
+        width: 350px;
+        height: 350px;
+        right: 10%;
+        top: 30%;
+    }
+    
+    .dishsection, .juicesection, .offersection, .productsection {
+        padding: 40px 40px;
+    }
+    
+    .dishwrap {
+        flex-wrap: wrap;
+    }
+    
+    .dishcard {
+        width: calc(50% - 12px);
+    }
+    
+    .juiceheading {
+        font-size: 44px;
+    }
+    
+    .juicesubheading {
+        font-size: 32px;
+    }
+    
+    .juicerow {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .juiceleft {
+        width: 100%;
+    }
+    
+    .juiceright {
+        width: 100%;
+    }
+    
+    .offerwrap {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .offerheading {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .offerform {
+        flex-direction: column;
+    }
+    
+    .productheading {
+        font-size: 44px;
+    }
+    
+    .productgrid {
+        flex-wrap: wrap;
+    }
+    
+    .productbox {
+        width: calc(50% - 12px);
+    }
+}
+
+/* Mobile - Products Page */
+@media (max-width: 767px) {
+    .bannersection {
+        padding: 40px 20px;
+    }
+    
+    .bannerwrap {
+        flex-direction: column;
+    }
+    
+    .bannerleft {
+        width: 100%;
+    }
+    
+    .bannerheading {
+        font-size: 40px;
+    }
+    
+    .bannerright {
+        display: none;
+    }
+    
+    .heroimage {
+        position: relative;
+        width: 280px;
+        height: 280px;
+        right: auto;
+        top: auto;
+        margin: 20px auto;
+    }
+    
+    .dishsection, .juicesection, .offersection, .productsection {
+        padding: 40px 20px;
+    }
+    
+    .dishwrap {
+        flex-direction: column;
+    }
+    
+    .dishcard {
+        width: 100%;
+    }
+    
+    .juiceheading {
+        font-size: 36px;
+    }
+    
+    .juicesubheading {
+        font-size: 28px;
+    }
+    
+    .juicepic {
+        width: 280px;
+        height: 350px;
+    }
+    
+    .juiceitem {
+        width: 100%;
+    }
+    
+    .offerheading {
+        font-size: 24px;
+    }
+    
+    .productheading {
+        font-size: 36px;
+    }
+    
+    .productbox {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .bannerheading {
+        font-size: 32px;
+    }
+    
+    .heroimage {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .juiceheading, .productheading {
+        font-size: 28px;
+    }
+    
+    .offerheading {
+        font-size: 20px;
+    }
+}
 
 
 

@@ -228,3 +228,51 @@ function checkScroll() {
 checkScroll();
 
 window.addEventListener('scroll', checkScroll);
+
+
+
+
+
+
+
+
+
+
+document.getElementById('navlink').addEventListener('click', function() {
+    window.location.href = 'index.html';
+});
+
+document.getElementById('navlink2').addEventListener('click', function() {
+    window.location.href = 'menu.html'; 
+});
+
+document.getElementById('navlink3').addEventListener('click', function() {
+    window.location.href = 'products.html';
+});
+
+document.getElementById('navlink4').addEventListener('click', function() {
+    window.location.href = 'about.html';
+});
+
+
+document.getElementById('logo').addEventListener('click', function() {
+    window.location.href = 'index.html';
+});
+document.getElementById('logo').style.cursor = 'pointer';
+
+
+const currentPage = window.location.pathname.split('/').pop();
+const navLinks = document.querySelectorAll('.navlink, .navlink2, .navlink3, .navlink4');
+
+navLinks.forEach(link => {
+    const linkText = link.innerHTML.toLowerCase().replace(' ', '');
+    if ((currentPage === 'index.html' || currentPage === '') && linkText === 'home') {
+        link.style.textDecoration = 'underline';
+    } else if (currentPage === 'menu.html' && linkText === 'menu') {
+        link.style.textDecoration = 'underline';
+    } else if (currentPage === 'products.html' && linkText === 'products') {
+        link.style.textDecoration = 'underline';
+    } else if (currentPage === 'about.html' && linkText === 'aboutus') {
+        link.style.textDecoration = 'underline';
+    }
+});
