@@ -1475,6 +1475,7 @@ section.show {
 .dishwrap{
     display: flex;
     gap: 24px;
+    margin-top: 160px;
 }
 
 .dishcard{
